@@ -1,2 +1,2 @@
-# Configuracion inicial de un proyecto Firebase
-En esta seccion, se encuentra el proyecto inicial del curso.
+# Firebase Numero 2: Configuración inicial del proyecto
+Por el momento para el proyecto inicial solo utilizaremos un archivo "index.html" el cual contendra todo el codigo necesario. 
