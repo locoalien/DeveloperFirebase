@@ -53,7 +53,7 @@ function cls_login_anon(){
         btnIngresar.addEventListener('click', login_anon.btnIngresar, false);
         //Se agrega un evento clic al boton "cerrarSesion", que llama al metodo btnCerrarSesion
         btnCerrarSesion.addEventListener('click', login_anon.btnCerrarSesion, false);
-    }
+    };
 
     /**
      * @public
@@ -88,7 +88,7 @@ function cls_login_anon(){
       document.getElementById('ingresar').disabled = true;
       //Se habilita el boton de cerrar sesion
       document.getElementById('cerrarSesion').disabled = false;
-    }
+    };
 
     /**
      * @public 
@@ -100,5 +100,5 @@ function cls_login_anon(){
         firebase.auth().signOut();
         document.getElementById('ingresar').disabled = false;
         document.getElementById('cerrarSesion').disabled = true;
-    }
+    };
 }
