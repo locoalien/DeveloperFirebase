@@ -17,8 +17,10 @@
 
   </head>
   <body ng-app="app">
-    <div id="message">
-
+    <div id="message" ng-controller="MyCtrl as ctrl">
+      <pre>
+        {{ ctrl.object | json }}
+      </pre>
     </div>
   </body>
 </html>
