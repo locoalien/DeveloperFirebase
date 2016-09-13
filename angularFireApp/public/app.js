@@ -16,6 +16,7 @@
             $firebaseRefProvider.registerUrl({
                 default: config.databaseURL,
                 object: `${config.databaseURL}/angular/object`
+                
             });
         })
         //Clase constructora o fabrica
